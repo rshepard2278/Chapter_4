@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StockManager()
+comment0.text=\r\n\ Initialise\ the\ stock\ manager.\r\n
+comment1.params=item
+comment1.target=void\ addProduct(Product)
+comment1.text=\r\n\ Add\ a\ product\ to\ the\ list.\r\n\ @param\ item\ The\ item\ to\ be\ added.\r\n
+comment2.params=id\ amount
+comment2.target=void\ delivery(int,\ int)
+comment2.text=\r\n\ Receive\ a\ delivery\ of\ a\ particular\ product.\r\n\ Increase\ the\ quantity\ of\ the\ product\ by\ the\ given\ amount.\r\n\ @param\ id\ The\ ID\ of\ the\ product.\r\n\ @param\ amount\ The\ amount\ to\ increase\ the\ quantity\ by.\r\n
+comment3.params=id
+comment3.target=int\ numberInStock(int)
+comment3.text=\r\n\ Locate\ a\ product\ with\ the\ given\ ID,\ and\ return\ how\r\n\ many\ of\ this\ item\ are\ in\ stock.\ If\ the\ ID\ does\ not\r\n\ match\ any\ product,\ return\ zero.\r\n\ @param\ id\ The\ ID\ of\ the\ product.\r\n\ @return\ The\ quantity\ of\ the\ given\ product\ in\ stock.\r\n
+comment4.params=
+comment4.target=void\ printProductDetails()
+comment4.text=\r\n\ Print\ details\ of\ all\ the\ products.\r\n
+comment5.params=id
+comment5.target=Product\ findProduct(int)
+comment6.params=amount
+comment6.target=void\ printLowQuantity(int)
+comment7.params=name
+comment7.target=Product\ findProductByName(java.lang.String)
+numComments=8
